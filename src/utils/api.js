@@ -2,7 +2,7 @@ import axios from "axios"
 
 // CRUD para Usuarios
 
-const baseURL = "https://blooming-everglades-45373.herokuapp.com/"
+const baseURL = "https://blooming-everglades-45373.herokuapp.com"
 
 const getToken = () => {
     return `Bearer ${localStorage.getItem('token')}`

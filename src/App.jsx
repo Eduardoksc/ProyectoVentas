@@ -22,7 +22,7 @@ function App() {
     <Auth0Provider
     domain="astra-tic-empresa.us.auth0.com"
     clientId="IJ4ySwfpvIbKhXo64zBRurOwuo4w2CTI"
-    redirectUri="http://localhost:3000/admin"
+    redirectUri="https://sleepy-journey-22023.herokuapp.com/admin"
     audience="api-autenticacion-astra-tic">
 
       <UserContext.Provider value={{userData, setUserData}}>

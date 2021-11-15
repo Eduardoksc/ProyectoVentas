@@ -9,7 +9,7 @@ const Sidebar = () => {
     const { user, logout } = useAuth0();
 
     const cerrarSesion = () => {
-        logout({ returnTo: 'http://localhost:3000/admin' })
+        logout({ returnTo: 'https://sleepy-journey-22023.herokuapp.com/admin'})
         localStorage.setItem('token', null)
     }
 

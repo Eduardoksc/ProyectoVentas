@@ -18,7 +18,7 @@ export const obtenerUsuarios = async (sucssesCallback, errorCallback) => {
 
 export const obtenerDatosUsuarios = async (sucssesCallback, errorCallback) => {
     const options = {
-        method: 'GET', url: `${baseURL}/usuarios/self`
+        method: 'GET', url: `${baseURL}/usuarios/self/`
         ,
         headers: {Authorization: getToken()} // 3. Enviarle el token al backend
     };
